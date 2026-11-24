@@ -154,6 +154,7 @@ Functional Requirements describe what the system must be able do.
 
 Non-Functional Requirements describe how the system should perform.
 |ID|non-Functional Requirements|Description|
+|---|---|---|
 |NFR01|Performance|The application's main page should be loaded within 5 seconds for smooth use.| 
 |NFR02|Security|The system should protect users' information and payment details.|
 |NFR03|Reliabilty|The system should run optimally with minimal service interruption.|
