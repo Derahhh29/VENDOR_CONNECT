@@ -6,20 +6,21 @@
 
 ## 1. Product Overview
 
-An app or a website meant to be used to connect food vendors with students in Babcock university. It will contain the following:
+An app or a website meant to be used to connect food vendors with students in Babcock university. It will contain the following:<br>
 
-1.**A student page:** On this page, the student can make and pay for their order. The payment will contain the price of the food, the price of delivery and a commission for the website.  It would also have a chat area where students can communicate with the delivery people as well as give reviews to a vendor they buy food from. They should also be able to share the location on where the food is to be delivered to.
-2.**The vendor’s page:** It will be a separate page that allows the vendor to upload and update the list of their food (showing the price and quantity per day). The vendors would also be notified when payment has been made and the food has been ordered by the student. The website should also be able to accept payments for vendor premium programs, to put vendors in favorable positions on the student’s page and to give them greater priority. 
-3.**The delivery Rider's page:** It should allow a delivery person to see the food ordered and the location where they will drop the food. It should also allow the delivery people to be able to communicate with the students.
+1.**A student page:** On this page, the student can make and pay for their order. The payment will contain the price of the food, the price of delivery and a commission for the website.  It would also have a chat area where students can communicate with the delivery people as well as give reviews to a vendor they buy food from. They should also be able to share the location on where the food is to be delivered to.<br>
+2.**The vendor’s page:** It will be a separate page that allows the vendor to upload and update the list of their food (showing the price and quantity per day). The vendors would also be notified when payment has been made and the food has been ordered by the student. The website should also be able to accept payments for vendor premium programs, to put vendors in favorable positions on the student’s page and to give them greater priority.<br>
+3.**The delivery Rider's page:** It should allow a delivery person to see the food ordered and the location where they will drop the food. It should also allow the delivery people to be able to communicate with the students.<br>
 The website would generate revenue through commissions, vendor subscriptions and ads.
 
 ---
 
 ## 2. Problem Statement
 
-The problems are as a result of the reduced number of stalls or vendors in the school campus. Which include: 
-1.Far distance to other established restaurants like Babcock Guest House and BUTH Canteen. 
-2.Students have to go physically to buy food in inconvenient situations or they are forced to rely on untrustworthy middlemen or delivery people who take advantage of them when food is ordered. 
+The problems are as a result of the reduced number of stalls or vendors in the school campus. Which include:<br>
+
+1.Far distance to other established restaurants like Babcock Guest House and BUTH Canteen.<br>
+2.Students have to go physically to buy food in inconvenient situations or they are forced to rely on untrustworthy middlemen or delivery people who take advantage of them when food is ordered.<br>
 3.Vendors are also incapable of serving numerous people during rush hours due to lack of space and they can also not reach students who get discouraged to go to their shops due to the distance and the crowds present in their shops. 
 
 **Proposed Solution**
@@ -29,12 +30,13 @@ Develop a food delivery application that provides students a centralized platfor
 
 ## 3. Business Objectives
 
-The primary objectives of the Food Delivery app are:
-1.**Fast Delivery:** Keeping to delivery schedules to provide students  with their food at the stated time.
-2.**Increase Revenue:** Generate business revenue through services, delivery fees and commissions from food vendors.
-3.**High Customer Satisfaction:** Provide a convenient, user-friendly experience that encourages repeat orders.
-4.**Build Brand Recognition:** Make the app the 1st choice for everyday food orders by students on campus without losing trust and quality delivery service.
-5.**Building Strong Vendor Partnerships:** Working together with multiple food vendors and restaurants to maintain consistent meal quality, accurate orders to fulfill the needs of customers.
+The primary objectives of the Food Delivery app are:<br>
+
+1.**Fast Delivery:** Keeping to delivery schedules to provide students  with their food at the stated time.\
+2.**Increase Revenue:** Generate business revenue through services, delivery fees and commissions from food vendors.\
+3.**High Customer Satisfaction:** Provide a convenient, user-friendly experience that encourages repeat orders.\
+4.**Build Brand Recognition:** Make the app the 1st choice for everyday food orders by students on campus without losing trust and quality delivery service.\
+5.**Building Strong Vendor Partnerships:** Working together with multiple food vendors and restaurants to maintain consistent meal quality, accurate orders to fulfill the needs of customers.\
 6.**Connecting Customers with Food Vendors:** Creating a platform that allows good vendors and restaurants to showcase their meals to customers and receive orders, helping them boost sales.
 
 ---
@@ -54,19 +56,19 @@ The Food Delivery Application serves four core user groups across mobile and web
 
 ## 5. StakeHolders
 
-The key stakeholders involved in the development and operation of the Food Delivery Application are:
-1.**Customers:** Individuals who use the application to browse restaurants, place orders, make payments and track deliveries.
-2.**Restaurant Owners/Vendors:** Responsible for managing restaurant profiles, uploading menus, receiving orders and preparing meals.
-3.**Delivery Riders:** Responsible for collecting orders from restaurants and delivering them to customers.
-4.**System Administrator:** Responsible for managing users, monitoring activities, resolving disputes and maintaining the platform.
-5.**Development Team:** Software developers, UI/UX designers and testers responsible for building, designing and maintaining the application.
+The key stakeholders involved in the development and operation of the Food Delivery Application are:\
+1.**Customers:** Individuals who use the application to browse restaurants, place orders, make payments and track deliveries.\
+2.**Restaurant Owners/Vendors:** Responsible for managing restaurant profiles, uploading menus, receiving orders and preparing meals.\
+3.**Delivery Riders:** Responsible for collecting orders from restaurants and delivering them to customers.\
+4.**System Administrator:** Responsible for managing users, monitoring activities, resolving disputes and maintaining the platform.\
+5.**Development Team:** Software developers, UI/UX designers and testers responsible for building, designing and maintaining the application.\
 6.**Payment Service Providers:** Third-party organizations responsible for processing online transactions securely.
 
 ## 6. User Stories 
 
-These stories cover four roles on the Babcock campus app, and every story has a priority and a testable acceptance criterion.
-•**Format:** As a <role>, I want <action> so that <benefit>.
-•**IDs:** C = customer, R = restaurant, D = delivery rider, A = administrator.
+These stories cover four roles on the Babcock campus app, and every story has a priority and a testable acceptance criterion.\
+•**Format:** As a <role>, I want <action> so that <benefit>.\
+•**IDs:** C = customer, R = restaurant, D = delivery rider, A = administrator.\
 •**High:** the app cannot launch without it. Medium: improves the experience. Low: can wait for a later version.
 
 ### Customer stories (students and staff)
@@ -153,7 +155,7 @@ Functional Requirements describe what the system must be able do.
 ## 8. Non-Functional Requirements
 
 Non-Functional Requirements describe how the system should perform.
-|ID|non-Functional Requirements|Description|
+|ID|Non-Functional Requirements|Description|
 |---|---|---|
 |NFR01|Performance|The application's main page should be loaded within 5 seconds for smooth use.| 
 |NFR02|Security|The system should protect users' information and payment details.|
@@ -168,20 +170,20 @@ Non-Functional Requirements describe how the system should perform.
 
 ## 9. Scope and Priorities
 
-This section defines the features that will be developed and what their importance is.
-#A.	Features that will be included in our mvp(minimum viable products): these features are all of high importance. 
-1.**User sign up and log in:** Sign up allows users to create accounts for identification on the website, while login is used to access an account already created by the user . These are important features of high priority.
-2.**Order cart:** This is a list of orders chosen by the user, it is essential for the user to be able to order more than one thing at a time, in order to prevent excessive and recurring orders.
-3.**Search bar and discover:** This is essential for users to locate the dish and vendor of their choice instead of mindless scrolling. This is a very important priority of the website 
-4.**Food menu and price listings:** The food menu is the major purpose of this business, and without the price listings the application is useless.
-5.**User profile management:** This is where the settings, usernames, switch account, themes menu and so much more will be displayed.
-6.**Order tracker:** This is for tracking already ordered goods by the buyer.
-7.**Ratings and reviews:** Leaving a rating is important to enable buyers to discover good sellers.
+This section defines the features that will be developed and what their importance is:
+# A.	Features that will be included in our MVP(minimum viable products):These features are all of high importance.
+1.**User sign up and log in:** Sign up allows users to create accounts for identification on the website, while login is used to access an account already created by the user . These are important features of high priority.\
+2.**Order cart:** This is a list of orders chosen by the user, it is essential for the user to be able to order more than one thing at a time, in order to prevent excessive and recurring orders.\
+3.**Search bar and discover:** This is essential for users to locate the dish and vendor of their choice instead of mindless scrolling. This is a very important priority of the website.\
+4.**Food menu and price listings:** The food menu is the major purpose of this business, and without the price listings the application is useless.\
+5.**User profile management:** This is where the settings, usernames, switch account, themes menu and so much more will be displayed.\
+6.**Order tracker:** This is for tracking already ordered goods by the buyer.\
+7.**Ratings and reviews:** Leaving a rating is important to enable buyers to discover good sellers.\
 8.**Buyer To Seller connections:** This is of major importance to the business, to reduce confusion and confirm addresses.
 
-B. Low-No priority features(out of scope): the following features will not be included in our mvp
+# B.Low-No priority features(out of scope):The following features will not be included in our MVP
 
-1.**Promotional orders and discounts:** Discounts is not a major reason for the creation of the business -low priority.
+1.**Promotional orders and discounts:** Discounts is not a major reason for the creation of the business -low priority.\
 2.**AI food recommendations:** This simply is not a priority and is not a major part of the business.
 
 ---
@@ -208,11 +210,11 @@ Acceptance criteria specify the requirements that each feature must meet before 
 **Example of an Acceptance Criterion Feature: Delivery Tracking.**
 The feature will be accepted when:
 
-1.The customer can access the tracking page for an active order.
-2.The system displays the current order status.
-3.The delivery rider’s assigned details are available to the customer.
-4.The system updates the customer when the delivery status changes.
-5.The customer receives confirmation when the order has been delivered.
+1.The customer can access the tracking page for an active order.\
+2.The system displays the current order status.\
+3.The delivery rider’s assigned details are available to the customer.\
+4.The system updates the customer when the delivery status changes.\
+5.The customer receives confirmation when the order has been delivered.\
 6.The tracking information corresponds to the correct order.
 
 ---
@@ -220,15 +222,16 @@ The feature will be accepted when:
 ## 11. Assumptions And Open Questions
 
  ### A. Assumptions 
-The development of the application is based on the following assumptions:
-1.Restaurants are willing to register their business on the platform.
-2.Customers have access to a good internet.
-3.A trustworthy third party payment gateway should be united  
-4.Riders are available to fulfil customers orders
-5.Customers would have valid and accurate delivery addresses 
+The development of the application is based on the following assumptions:\
+1.Restaurants are willing to register their business on the platform.\
+2.Customers have access to a good internet.\
+3.A trustworthy third party payment gateway should be united.<br>
+4.Riders are available to fulfil customers orders.\
+5.Customers would have valid and accurate delivery addresses.
 
 ### B. Open questions 
-These are questions that must be answered before or during development. 
+These are questions that must be answered before or during development.
+
 |ID|Open questions|Why it matters|
 |---|---|---|
 |OP01|Would customers complains and refunds be attended to?|Determines customer support process.|
@@ -248,4 +251,4 @@ By incorporating the highlighted Functional Requirements and Non-Functional Requ
 
 The initial developnment will dwell on core features which are;User Registeration, Shopping cart, Payment PLatforms, Vendor Listing, Food menu and delivery management.
 
-**Main Goal**To develop a reliable food delivery platform that improves customer convenience, eliminate long distance walks fo rordering of food and generate more revenue for the vendors.
+**Main Goal:** To develop a reliable food delivery platform that improves customer convenience, eliminate long distance walks fo rordering of food and generate more revenue for the vendors.
